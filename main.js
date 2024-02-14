@@ -39,3 +39,13 @@ const typed = new Typed('.multiple', {
     loop: true
 
 })
+
+
+//Cv
+
+const Cv = document.getElementById('cv')
+const pdfPath = "cv/Curriculo_GustavoArimateia.pdf";
+
+Cv.addEventListener('click', () => {
+    window.location.href = pdfPath;
+})
